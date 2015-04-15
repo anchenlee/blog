@@ -20,7 +20,11 @@
 				<li><a href="">随笔</a></li>
 				<li><a href="aboutme.html">关于我</a></li>
 			</ul>
-			<div class="blog-content">{{ content }}</div>
+			<div class="blog-content">
+				<h5 class="blog-title">{{ page.title }}</h5>
+				<time>{{ page.date }}</time>
+				{{ content }}
+			</div>
 		</div>
 	</div>
 </body>
