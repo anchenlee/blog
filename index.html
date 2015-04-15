@@ -24,9 +24,8 @@ title: 谙晨的博客 - Home
 				<li class="lf-blog-li p-re clearfix">
 					<div class="time-tag p-re lf-item-left">{{ post.date | date_to_string }} </div>
 					<div class="lf-item-right">
-						<h5>{{ post.title }}</h5>
-						<div class="blog-con">前几天，跟一同事(MIHTool作者)	讨教了一下	 开发调单工具puer，以及如何利用它在产品开发的各阶段实现高效的	开发。本文title有点大哈，相较于目前国内正流行起来的前端后移 的前后端分离方案，本文介绍是一种“低碳”的版本，所以不要纠结	 于这个Title的正确性哈。
-						</div>
+						<a href="{{ site.baseurl }}{{ post.url }}"></a><h5>{{ post.title }}</h5>
+						<div class="blog-con">{{post.content}}</div>
 					</div>
 					
 					<div class="read-more"><i class="fa fa-chevron-right"></i> Read More</div>
