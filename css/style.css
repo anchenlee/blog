@@ -35,3 +35,7 @@ body{background: #eee;margin: 0;padding: 0; }
 .read-more{border-top: 1px solid #aaa;padding-top: 10px;margin-top: 10px;font-size: 14px;
 	color: #999;cursor: pointer;}
 .read-more:hover{color: #258fb8;}
+
+/* 文章内页 */
+.blog-content{ max-width: 800px;background: #fff;height: auto;border-radius: 3px;padding: 20px;margin: 10px 0;
+	box-shadow: 0 0 3px #eaeaea;}
