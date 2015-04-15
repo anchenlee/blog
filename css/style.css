@@ -44,3 +44,4 @@ body{background: #eee;margin: 0;padding: 0; }
 .blog-content time{ color: #aaa;font-size: 14px;line-height: 1.6;}
 .blog-content p{ margin-top: 20px;text-indent: 2em;line-height: 1.4;}
 .blog-content img{ display: block;max-width: 100%;margin: 10px;cursor: pointer;}
+.blog-content .coding{ margin: 10px 0;background: #f8f8f8;padding: 6px;border: 1px solid #ccc;font-size: 14px;line-height: 1.5;}
