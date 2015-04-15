@@ -37,4 +37,6 @@ body{background: #eee;margin: 0;padding: 0; }
 	color: #999;cursor: pointer;}
 .read-more:hover{color: #258fb8;}
 
-
+/* 文章内页 */
+.blog-content{ max-width: 800px;background: #fff;height: auto;border-radius: 3px;padding: 20px;margin: 10px 0;
+	box-shadow: 0 0 3px #eaeaea;}
