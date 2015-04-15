@@ -20,7 +20,7 @@
 			</ul>
 			<div class="blog-content">
 				<h5 class="blog-title">{{ page.title }}</h5>
-				<time>{{ page.date }}</time>
+				<time>{{ page.date | date_to_string }}</time>
 				{{ content }}
 			</div>
 		</div>
