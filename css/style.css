@@ -40,3 +40,6 @@ body{background: #eee;margin: 0;padding: 0; }
 /* 文章内页 */
 .blog-content{ max-width: 800px;background: #fff;height: auto;border-radius: 3px;padding: 20px;margin: 10px 0;
 	box-shadow: 0 0 3px #eaeaea;}
+.blog-title{font-size: 18px;font-weight: 600;color: #666;line-height: 1.8;cursor: pointer;}
+.blog-content time{  color: #aaa;font-size: 14px;line-height: 1.6;}
+.blog-content p{  margin-top: 20px;text-indent: 2em;line-height: 1.4;}
