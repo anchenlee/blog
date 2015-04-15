@@ -1,4 +1,4 @@
-baseurl: /jekyll_demo
+baseurl: /myblog
 username: anchenlee
 markdown: redcarpet
 safe: false
