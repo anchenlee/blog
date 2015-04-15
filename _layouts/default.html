@@ -3,8 +3,27 @@
 <head>
 	<meta charset="UTF-8">
 	<title>{{ page.title }}</title>
+	<link rel="stylesheet" href="./css/base.css">
+	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-	{{ content }}
+	<div class="row-fluid">
+		<div id="" class="fixed-left">
+			<img class="lf-avatar" src="http://p3.music.126.net/voXXrYMGjBbi_O1nbs5rcw==/1902155116171228.jpg?param=200y200" alt="">
+			<h5 class="lf-username">anchen Lee</h5>
+			<div class="lf-copy">&copy;2015 anchenlee</div>
+		</div>
+		<div id="" class="main">
+			<ul class="hdr-banner block p-re">
+				<li><a href="">我的博客</a></li>
+				<li><a href="">前端</a></li>
+				<li><a href="">随笔</a></li>
+				<li><a href="aboutme.html">关于我</a></li>
+			</ul>
+			
+		</div>
+		<div class="blog-content">{{ content }}</div>
+	</div>
+	
 </body>
 </html>
