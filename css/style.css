@@ -26,7 +26,7 @@ body{background: url('http://fehacker.com/wp-content/uploads/2014/10/193737.jpg'
 .lf-blog-li{max-width: 800px;background: rgba(255, 255, 255, .7);height: auto;border-radius: 3px;padding: 20px;margin: 10px 0;
 	box-shadow: 0 0 3px #eaeaea;margin-left: 50px;}
 .lf-blog-li:hover{box-shadow: 0 0 10px #aaa;}
-.time-tag{position: absolute;left: -50px; width: 50px;background: #258fb8;padding: 10px;border-radius: 3px;font-size: 14px;
+.time-tag{position: absolute;left: -60px; width: 50px;background: #258fb8;padding: 10px;border-radius: 3px;font-size: 14px;
 	color: #fff;}
 .lf-blog-li h5{font-size: 16px;color: #444;font-size: 1.6em;font-weight: 500;cursor: pointer;
 	line-height: 150%;margin-bottom: 10px;}
