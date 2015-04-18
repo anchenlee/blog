@@ -13,11 +13,16 @@ body{background-image: url('../image/qq.jpg');
 
 
 .row-fluid{position: relative;display: block;width: 100%;}
-.fixed-left{position: fixed;margin-right: 20px;background: #2f2f2f;display: block;
+.fixed-left{position: fixed;margin-right: 20px;background: rgba(47, 47, 47, .9);display: block;
 	left: 0;top: 0;bottom: 0;padding: 30px 0;width: 200px;text-align: center;}
 .lf-avatar{width: 100px;height: 100px;display: block;border-radius: 50px;margin: 0 auto;}
 .lf-username{font-size: 20px;color: #eaeaea;font-family: -webkit-pictograph;font-weight: 600;
 	line-height: 60px;}
+.lf-contact{ position: absolute;width: 100%;bottom: 60px;text-align: center;}
+.lf-contact h5{ font-family: "Arial";color: #f1f2f3;line-height: 30px;}
+.lf-contact a{}
+.lf-contact .fa{ font-size: 20px;display: inline-block;padding: 4px; color: #258fb8;}
+.lf-contact .fa:hover{ color: #f1f2f3;}
 .lf-copy{ position: absolute;bottom: 20px;font-family: "microsoft yahei";color: #ccc;
 	font-size: 14px;width: 100%;text-align: center;}/* text-shadow: 0 0 1px #fff; */
 .main{margin-left: 240px;font-family: "microsoft yahei"}
